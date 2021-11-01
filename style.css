@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;
 
 body{
     background-color:  #181F2B;
+  
 }
 
 #container{
@@ -79,11 +80,15 @@ body{
 
 @media screen and (min-width: 768px){
 
+
+
+
     #container{
         display: grid;
         grid-template-rows: 95vh 600px;
         grid-template-areas: 'top'
                             'second';
+
         
     }
 
