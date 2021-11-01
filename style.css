@@ -19,11 +19,6 @@ body{
 
 .top{
     grid-area: top;
-    background-image: url('imgs/bg-curvy-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #1B2330;
     display: grid;
     gap: 30px;
     grid-template-rows: 70px 560px;
@@ -44,6 +39,8 @@ body{
     height: 1.5rem;
     margin-left: 1rem;
 }
+
+
 
 .top-right-links{
     display: flex;
@@ -70,6 +67,8 @@ body{
     align-items: center;
   
 }
+
+
 
 .intro_image{
     width: 20rem;
@@ -133,7 +132,7 @@ body{
         grid-template-areas: 'top-links'
                                 'image_words';
         background-size: 100%;
-        background-position: bottom 200px;
+        background-position: bottom;
         gap: 0px;
       
         
