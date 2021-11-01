@@ -3,3 +3,47 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 }
+
+body{
+    background-color:  #181F2B;
+}
+
+#container{
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-areas: 'top';
+    
+}
+
+.top{
+    grid-area: top;
+    background-image: url('imgs/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-color: #1B2330;
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-areas: 'top-links';
+
+}
+
+.top-links{
+    grid-area: top-links;
+}
+
+@media screen and (min-width: 768px){
+    .top{
+        background-image: url('imgs/bg-curvy-desktop.svg');
+       
+        
+        
+    }
+
+    #container{
+        display: grid;
+        grid-template-rows: 800px;
+        grid-template-areas: 'top';
+        
+    }
+}
