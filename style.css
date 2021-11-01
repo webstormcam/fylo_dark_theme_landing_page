@@ -10,7 +10,7 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 350px 400px;
+    grid-template-rows: 450px 400px;
     grid-template-areas: 'top'
                         'second';
     
@@ -24,8 +24,10 @@ body{
     background-position: bottom;
     background-color: #1B2330;
     display: grid;
-    grid-template-rows: 70px;
-    grid-template-areas: 'top-links';
+    gap: 30px;
+    grid-template-rows: 70px 300px;
+    grid-template-areas: 'top-links'
+                            'image_words';
 
 }
 
@@ -61,6 +63,15 @@ body{
  text-decoration: underline;
  cursor: pointer;
 }
+.image_words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_image{
+    width: 20rem;
+}
 
 .second{
     grid-area: second;
@@ -70,7 +81,7 @@ body{
 
     #container{
         display: grid;
-        grid-template-rows: 750px 600px;
+        grid-template-rows: 95vh 600px;
         grid-template-areas: 'top'
                             'second';
         
@@ -78,10 +89,12 @@ body{
 
     .top{
         background-image: url('imgs/bg-curvy-desktop.svg');
-        grid-template-rows: 150px;
-        grid-template-areas: 'top-links';
+        grid-template-rows: 150px 700px;
+        grid-template-areas: 'top-links'
+                                'image_words';
         background-size: 100%;
-        background-position: bottom center;
+        background-position: bottom 200px;
+        gap: 0px;
       
         
         
@@ -100,5 +113,9 @@ body{
 
     .top-right-links li{
         font-size: 0.9rem;
+    }
+
+    .intro_image{
+        width: 50rem;
     }
 }
