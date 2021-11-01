@@ -11,9 +11,11 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 700px 400px;
+    grid-template-rows: 450px 200px 400px ;
     grid-template-areas: 'top'
-                        'second';
+                        'second'
+                        'real-second';
+                        gap: 60px;
     
 }
 
@@ -24,6 +26,13 @@ body{
     grid-template-rows: 70px 560px;
     grid-template-areas: 'top-links'
                             'image_words';
+                            background-color: hsl(217, 28%, 15%);
+                            background-image: url('imgs/bg-curvy-mobile.svg');
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                          background-position: bottom;
+
+                         
 
 }
 
@@ -111,6 +120,14 @@ body{
     margin-top: 1.5rem;
     width: 15rem;
     font-weight: bold;
+}
+
+.real-second{
+    grid-area: real-second;
+    
+}
+.real-second p{
+    color: red;
 }
 @media screen and (min-width: 768px){
 
