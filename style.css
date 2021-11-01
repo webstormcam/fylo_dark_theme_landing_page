@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;
 
 body{
     background-color:  #181F2B;
+  
 }
 
 #container{
@@ -68,20 +69,23 @@ body{
 
 @media screen and (min-width: 768px){
 
+
+
+
     #container{
         display: grid;
-        grid-template-rows: 750px 600px;
+        grid-template-rows: 100vh 500px;
         grid-template-areas: 'top'
                             'second';
+
         
     }
 
     .top{
-        background-image: url('imgs/bg-curvy-desktop.svg');
         grid-template-rows: 150px;
         grid-template-areas: 'top-links';
-        background-size: 100%;
-        background-position: bottom center;
+       background-size: 100%;
+       background-position: bottom;
       
         
         
@@ -101,4 +105,7 @@ body{
     .top-right-links li{
         font-size: 0.9rem;
     }
+
+
+   
 }
