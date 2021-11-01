@@ -45,28 +45,50 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    width: 200px;
     margin-right: 1rem;
 }
 
 .top-right-links li{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.493);
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
 }
 
+.top-right-links li:hover{
+ color: #fff;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
 @media screen and (min-width: 768px){
-    .top{
-        background-image: url('imgs/bg-curvy-desktop.svg');
-       
-        
-        
-    }
 
     #container{
         display: grid;
-        grid-template-rows: 800px;
+        grid-template-rows: 100vh;
         grid-template-areas: 'top';
         
+    }
+
+    .top{
+        background-image: url('imgs/bg-curvy-desktop.svg');
+        grid-template-rows: 150px;
+        grid-template-areas: 'top-links';
+        
+    }
+
+    .small-logo{
+        height: 2.5rem;
+        margin-left: 3rem;
+    }
+
+
+    .top-right-links{
+        width: 250px;
+        margin-right: 3rem;
+    }
+
+    .top-right-links li{
+        font-size: 0.9rem;
     }
 }
