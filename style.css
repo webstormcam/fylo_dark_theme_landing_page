@@ -11,7 +11,7 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 450px 200px 400px ;
+    grid-template-rows: 450px 200px 800px ;
     grid-template-areas: 'top'
                         'second'
                         'real-second';
@@ -124,11 +124,34 @@ body{
 
 .real-second{
     grid-area: real-second;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
-.real-second p{
-    color: red;
+
+.parts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
+
+.parts h2{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parts p{
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
+}
+
 @media screen and (min-width: 768px){
 
 
