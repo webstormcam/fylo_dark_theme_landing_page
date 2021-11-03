@@ -184,8 +184,18 @@ body{
     line-height: 1.5rem;
     color: #fff;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
+
+#green_link{
+    text-decoration: none;
+    color: #62E0D9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #62E0D9;
+    padding-bottom: 0.3rem;
+}
+
 
 @media screen and (min-width: 768px){
 
