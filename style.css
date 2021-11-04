@@ -225,9 +225,9 @@ body{
     display: flex;
     flex-direction: column;
     background-color: hsl(217, 28%, 15%);
-    width: 17rem;
-    border-radius: 1rem;
-    padding: 1rem;
+    width: 18rem;
+    border-radius: 0.8rem;
+    padding: 1.4rem;
     margin-bottom: 2rem;
 }
 
@@ -254,6 +254,16 @@ body{
     height: 1.5rem;
     border-radius: 2rem;
     margin-right: 1rem;
+}
+
+.cubes .persontitle{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.cubes .job{
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.589);
 }
 
 
