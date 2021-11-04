@@ -11,11 +11,12 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 450px 200px 1100px 580px ;
+    grid-template-rows: 450px 200px 1100px 580px 700px ;
     grid-template-areas: 'top'
                         'second'
                         'real-second'
-                        'third';
+                        'third'
+                        'fourth';
                         gap: 60px;
     
 }
@@ -211,6 +212,10 @@ body{
 #green_icon{
     position: relative;
     top: 0.3rem;
+}
+
+.fourth{
+    grid-area:fourth
 }
 
 
