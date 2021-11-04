@@ -266,6 +266,17 @@ body{
     color: rgba(255, 255, 255, 0.589);
 }
 
+.quote{
+    height: 1.3rem;
+    position: absolute;
+    left: 0.2rem;
+    top: -1rem;
+}
+
+.cube1{
+    position: relative;
+}
+
 
 
 
