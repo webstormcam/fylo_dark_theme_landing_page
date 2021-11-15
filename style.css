@@ -11,14 +11,16 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 450px 200px 1100px 580px 700px 800px ;
+    grid-template-rows: 450px 200px 1100px 580px 700px 300px 700px ;
     grid-template-areas: 'top'
                         'second'
                         'real-second'
                         'third'
                         'fourth'
-                        'fifth';
+                        'fifth'
+                        'sixth';
                         gap: 60px;
+                        
                       
     
 }
@@ -35,6 +37,7 @@ body{
                             background-repeat: no-repeat;
                             background-size: contain;
                           background-position: bottom;
+
 
 
                          
@@ -295,6 +298,8 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
+   -webkit-box-shadow: 1px 5px 16px 2px rgba(0,0,0,0.69); 
+box-shadow: 1px 5px 16px 2px rgba(0,0,0,0.69);
   
 }
 
@@ -319,6 +324,12 @@ margin-top: 1rem;
 
 .fifth{
     grid-area: fifth; 
+    background-color: #0B1524;
+    
+}
+
+.sixth{
+    grid-area: sixth; 
     display: flex;
     flex-direction: column;
     align-items: center;
