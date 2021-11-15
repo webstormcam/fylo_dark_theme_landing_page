@@ -11,12 +11,13 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 450px 200px 1100px 580px 700px ;
+    grid-template-rows: 450px 200px 1100px 580px 700px 800px ;
     grid-template-areas: 'top'
                         'second'
                         'real-second'
                         'third'
-                        'fourth';
+                        'fourth'
+                        'fifth';
                         gap: 60px;
                       
     
@@ -224,6 +225,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .cubes{
@@ -280,6 +282,20 @@ body{
 
 .cube1{
     position: relative;
+}
+.lastBrick{
+    background-color: #1B2330;
+   width: 300px;
+   color: #fff;
+   position: absolute;
+}
+
+.fifth{
+    grid-area: fifth; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0B1524;
 }
 
 
