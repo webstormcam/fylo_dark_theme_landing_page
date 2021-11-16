@@ -370,10 +370,11 @@ button{
     flex-direction: row;
     align-items: top;
     color: #fff;
+    margin-bottom: 2rem;
 }
 
 .bottomlogo{
-    width: 8rem;
+    width: 7rem;
 }
 
 .icon{
@@ -384,11 +385,26 @@ button{
 
 .logo{
   margin-bottom: 2rem;
+  
 }
 
 .writing{
     font-size: 1rem;
     line-height: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btmlinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.btmlinks a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
