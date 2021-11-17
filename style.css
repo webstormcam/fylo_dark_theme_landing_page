@@ -430,7 +430,7 @@ button{
 
     #container{
         display: grid;
-        grid-template-rows: 400px 800px 1150px 630px 700px 300px 700px;
+        grid-template-rows: 400px  900px 1150px 630px 700px 300px 700px;
         grid-template-areas: 'top'
         'second'
         'real-second'
@@ -486,6 +486,7 @@ button{
         background-color: hsl(217, 28%, 15%);
         background-size: contain;
     }
+    
 
     .image_words{
        z-index: 100;
