@@ -430,7 +430,7 @@ button{
 
     #container{
         display: grid;
-        grid-template-rows: 300px  900px 1150px 630px 700px 300px 700px;
+        grid-template-rows: 200px  900px 1150px 630px 700px 300px 700px;
         grid-template-areas: 'top'
         'second'
         'real-second'
