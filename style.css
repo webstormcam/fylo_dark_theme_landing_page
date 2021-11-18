@@ -420,6 +420,9 @@ button{
     width: 1.8rem;
 }
 
+.bigbr{
+    display: none;
+}
 
 
 
@@ -473,7 +476,7 @@ button{
     }
 
     .intro_image{
-        width: 40rem;
+        width: 35rem;
     }
 
     .second{
@@ -491,5 +494,23 @@ button{
     .image_words{
        z-index: 100;
       
+    }
+
+    .image_words h1{
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .image_words p{
+        width: 570px;
+        font-size: 1.2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        line-height: 1.9rem;
+    }
+
+    .bigbr{
+        display: block;
     }
 }
