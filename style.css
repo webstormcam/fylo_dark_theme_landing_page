@@ -529,6 +529,11 @@ button{
     .parts{
         max-width: 50%;
     }
+
+    .third{
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 
@@ -542,7 +547,7 @@ button{
 
     #container{
         display: grid;
-        grid-template-rows: 200px 870px 700px 630px 700px 300px 700px;
+        grid-template-rows: 200px 870px 500px 600px 700px 300px 700px;
         grid-template-areas: 'top'
         'second'
         'real-second'
