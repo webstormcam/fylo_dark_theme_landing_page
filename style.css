@@ -525,6 +525,10 @@ button{
         align-items: baseline;
       
     }
+
+    .parts{
+        max-width: 50%;
+    }
 }
 
 
@@ -610,7 +614,10 @@ button{
         text-align: center;
         color: white;
         margin-bottom: 5rem;
-        max-width: 700px;
+        max-width: 50%;
+        margin-left:5rem ;
+        margin-right: 5rem;
+        
     }
     
     .parts h2{
@@ -629,13 +636,12 @@ button{
         max-width: 510px;    }
 
     .parts img{
-        height: 6rem;
+        height: 5rem;
     }
 
-    .parts1{
-        max-width: 1440px;
-    }
+ 
 
+   
     
 
    
