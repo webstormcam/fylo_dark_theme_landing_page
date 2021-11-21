@@ -526,6 +526,13 @@ button{
       
     }
 
+    .parts1{
+max-width: 900px;
+    }
+    .parts2{
+max-width: 900px;
+    }
+
     .parts{
         max-width: 50%;
     }
@@ -533,6 +540,7 @@ button{
     .third{
         flex-direction: row;
         justify-content: center;
+        
     }
 }
 
@@ -643,6 +651,13 @@ button{
     .parts img{
         height: 5rem;
     }
+
+    .parts1{
+        max-width: 1440px;
+            }
+            .parts2{
+        max-width: 1440px;
+            }
 
  
 
