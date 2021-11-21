@@ -437,7 +437,7 @@ button{
 @media screen and (min-width:768px){
     #container{
         display: grid;
-        grid-template-rows: 200px  900px 1150px 630px 700px 300px 700px;
+        grid-template-rows: 200px  900px 450px 630px 700px 300px 700px;
         grid-template-areas: 'top'
         'second'
         'real-second'
@@ -539,9 +539,12 @@ max-width: 900px;
 
     .third{
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        
         
     }
+
+   
 }
 
 
@@ -555,7 +558,7 @@ max-width: 900px;
 
     #container{
         display: grid;
-        grid-template-rows: 200px 870px 500px 600px 700px 300px 700px;
+        grid-template-rows: 200px 870px 500px 700px 700px 300px 700px;
         grid-template-areas: 'top'
         'second'
         'real-second'
@@ -664,7 +667,50 @@ max-width: 900px;
    
     
 
-   
+            .middle_image{
+                width: 34rem;
+            }
+        
+            .middle_words h2{
+                font-size: 2.5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+                color: #fff;
+                text-align: left;
+                margin-top: 3rem;
+                width: 350px;
+                line-height: 3rem;
+            }
+            
+            .middle_words p{
+                font-size: 1rem;
+                font-family: 'Open Sans', sans-serif;
+                padding-left: 0rem;
+                padding-right: 0rem;
+                line-height: 1.5rem;
+                color: #fff;
+                text-align: left;
+                margin-top: 1rem;
+                max-width: 500px;
+            }
+            #greentext_arrow{
+                width: fit-content;
+                   padding-left:0rem ;
+                   margin-top: 1rem;
+                  
+               
+               }
+
+               #green_link{
+             
+                font-size: 1rem;
+               }
+             
+            
+              
+                
+            }
     
 
   
@@ -674,4 +720,3 @@ max-width: 900px;
    
 
    
-}
