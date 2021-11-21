@@ -549,6 +549,8 @@ max-width: 900px;
         justify-content: space-around;
     }
 
+    
+
    
 }
 
@@ -711,6 +713,10 @@ max-width: 900px;
                #green_link{
              
                 font-size: 1rem;
+               }
+
+               .cubes{
+                   width: 330px;
                }
 
               
