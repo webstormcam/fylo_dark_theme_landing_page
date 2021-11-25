@@ -580,7 +580,7 @@ max-width: 900px;
 
     #container{
         display: grid;
-        grid-template-rows: 200px 870px 500px 600px 500px 200px 700px;
+        grid-template-rows: 200px 870px 500px 600px 500px 200px 300px;
         grid-template-areas: 'top'
         'second'
         'real-second'
@@ -798,6 +798,11 @@ max-width: 900px;
                 .btmBTN{
                     width: 200px;
                     padding:1rem;
+                }
+
+                .bottomfacts{
+                    display: flex;
+                    flex-direction: row;
                 }
 
               
