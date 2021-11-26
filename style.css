@@ -448,7 +448,7 @@ button{
 @media screen and (min-width:768px){
     #container{
         display: grid;
-        grid-template-rows: 200px  900px 550px 430px 400px 200px 700px;
+        grid-template-rows: 200px  900px 550px 430px 400px 200px 350px;
         grid-template-areas: 'top'
         'second'
         'real-second'
